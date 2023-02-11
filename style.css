@@ -1,0 +1,26 @@
+body{background-image:url("bg.jpg");
+background-size:100% 100%;
+
+background-attachment:fixed;
+background-repeat:no-repeat;
+color:aqua;
+}
+
+a{ text-decoration:none;
+color:red;
+}
+
+#join{
+
+color:white;
+font-size:50;}
+button{
+background-color:#245FC1;
+}
+h3{
+font-size:50;}}
+
+
+
+
+
