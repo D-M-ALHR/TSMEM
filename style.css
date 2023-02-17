@@ -1,25 +1,83 @@
+
 body{background-image:url("bg.jpg");
-background-size:100% 100%;
-background-attachment:fixed;
-background-repeat:no-repeat;
-color:aqua;
-}
+    background-size:100% 100%;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    color:aqua;
+    font-family:Arial, Helvetica, sans-serif;
+   
+    }
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 16px;
+    }
+    #navbar{
+        
+    background-color:#142850 ;
+    background-attachment:scroll;
+    background-repeat: no-repeat;
+    
+    }
+    #navbar-list{
+    list-style: none;
+    }
+    #navbar-item{
+        display: inline-block;
+        height: 50px;
+        width: 8rem;
+       line-height: 50px;
+       text-align: center;
+       transition: 0.3s;
+    }
+    #navbar-item:hover{
+        background-color: #27496d;
+        transition: 0.3s;
+    }
+    #navbar-link{ 
+        color: #eeeeee;
+        display: block;
+       
+            }
+        
+        #navbar-link:hover{
+        color: white;
+        
+        }
+    a{ text-decoration:none ;
+    
+    
+    color:red;
+    }
+    
+    #join{
+    
+    color:white}
+    
+    button{
+    background-color:#245FC1;
+    }
+    #QSM{ background-color:#245FC1;
+    }
+    #FOOT{font-family:arial;
+    
+    }
+    #h1{background-color:#245FC1
+        ;}
+    #img{
+        width: 25%;
+    }
 
-a{ text-decoration:none;
-color:red;
-}
-
-#join{
-
-color:white;
-font-size:50;}
-button{
-background-color:#245FC1;
-}
-h3{
-font-size:50;}}
-
-
-
-
-
+    @media (max-width:650px) {
+        #navbar-item{
+            display: block;
+            text-align: center;
+            width: 100%;
+        }
+        #img{
+            width: 5%;
+        }
+    }
