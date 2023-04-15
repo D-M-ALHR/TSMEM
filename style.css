@@ -85,10 +85,10 @@ body {
 }
 
 .container-designs a {
-    color: aqua;
+    color: white;
     display: inline-block;
     margin: 20px auto;
-    background-color: rgb(0, 0, 110);
+    background-color: crimson;
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
@@ -96,7 +96,7 @@ body {
 }
 
 .container-designs a:hover {
-    background-color: blue;
+    background-color: rgb(170, 23, 53);
     transition: 0.3s
 }
 
@@ -136,10 +136,10 @@ body {
 .container-designs-10 a,
 .container-designs-9 a,
 .container-designs-8 a {
-    color: aqua;
+    color: white;
     display: block;
     margin: 10px auto;
-    background-color: rgb(0, 0, 110);
+    background-color: crimson;
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
@@ -154,7 +154,7 @@ body {
 .container-designs-10 :hover,
 .container-designs-9 :hover,
 .container-designs-8 :hover {
-    background-color: blue;
+    background-color: rgb(170, 23, 53);
     transition: 0.3s
 }
 
