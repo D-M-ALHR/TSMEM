@@ -88,7 +88,7 @@ body {
     color: white;
     display: inline-block;
     margin: 20px auto;
-    background-color: crimson;
+    background-color: #2e7dda;
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
@@ -139,12 +139,13 @@ body {
     color: white;
     display: block;
     margin: 10px auto;
-    background-color: crimson;
+    background-color: #2e7dda;
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
     transition: 0.3s
 }
+
 
 .container-designs-15 :hover,
 .container-designs-14 :hover,
