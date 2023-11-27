@@ -1,105 +1,100 @@
 body {
-    background-image: url("bg.jpg");
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+  background-image: url("bg.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    direction: rtl;
-    font-size: 16px;
-    text-transform: capitalize;
-    text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-size: 16px;
+  text-transform: capitalize;
+  text-decoration: none;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 #navbar {
-
-    background-color: #142850;
-    background-attachment: scroll;
-    background-repeat: no-repeat;
-
+  background-color: #142850;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
 }
 
 #navbar-list {
-    list-style: none;
+  list-style: none;
 }
 
 #navbar-item {
-    display: inline-block;
-    height: 50px;
-    width: 8rem;
-    line-height: 50px;
-    text-align: center;
-    transition: 0.3s;
+  display: inline-block;
+  height: 50px;
+  width: 8rem;
+  line-height: 50px;
+  text-align: center;
+  transition: 0.3s;
 }
 
 #navbar-item:hover {
-    background-color: #27496d;
-    transition: 0.3s;
+  background-color: #27496d;
+  transition: 0.3s;
 }
 
 #navbar-link {
-    color: #eeeeee;
-    display: block;
-
+  color: #eeeeee;
+  display: block;
 }
 
 #navbar-link:hover {
-    color: white;
-
+  color: white;
 }
 
 #img {
-    width: 25%;
+  width: 25%;
 }
 
-
-
 .top .clash {
-    text-align: center;
-    color: white;
-    font-size: 40px;
-    font-family: sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: sans-serif;
 }
 
 .top .welcome {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    font-family: sans-serif;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
 .container-designs {
-    text-align: center;
-    margin: 20px;
+  text-align: center;
+  margin: 20px;
 }
 
 .container-designs p {
-    color: white;
-    font-size: 20px;
-    font-family: sans-serif;
-    margin: 20px;
+  color: white;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin: 20px;
 }
 
 .container-designs a {
-    color: white;
-    display: inline-block;
-    margin: 20px auto;
-    background-color: #2e7dda;
-    width: fit-content;
-    padding: 10px;
-    border-radius: 10px;
-    transition: 0.3s
+  color: white;
+  display: inline-block;
+  margin: 20px auto;
+  background-color: #2e7dda;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
 }
 
 .container-designs a:hover {
-    background-color: rgb(170, 23, 53);
-    transition: 0.3s
+  background-color: rgb(170, 23, 53);
+  transition: 0.3s;
 }
-
 
 .design-15,
 .design-14,
@@ -109,15 +104,15 @@ body {
 .design-10,
 .design-9,
 .design-8 {
-    color: white;
-    background-color: black;
-    padding: 10px 50px;
-    margin: 0 auto;
-    border-radius: 10px;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    font-weight: bold;
+  color: white;
+  background-color: black;
+  padding: 10px 50px;
+  margin: 0 auto;
+  border-radius: 10px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  font-weight: bold;
 }
 
 .container-designs-15,
@@ -128,7 +123,7 @@ body {
 .container-designs-10,
 .container-designs-9,
 .container-designs-8 {
-    color: white;
+  color: white;
 }
 
 .container-designs-15 a,
@@ -139,16 +134,15 @@ body {
 .container-designs-10 a,
 .container-designs-9 a,
 .container-designs-8 a {
-    color: white;
-    display: block;
-    margin: 10px auto;
-    background-color: #2e7dda;
-    width: fit-content;
-    padding: 10px;
-    border-radius: 10px;
-    transition: 0.3s
+  color: white;
+  display: block;
+  margin: 10px auto;
+  background-color: #2e7dda;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.3s;
 }
-
 
 .container-designs-15 :hover,
 .container-designs-14 :hover,
@@ -158,37 +152,35 @@ body {
 .container-designs-10 :hover,
 .container-designs-9 :hover,
 .container-designs-8 :hover {
-    background-color: rgb(170, 23, 53);
-    transition: 0.3s
+  background-color: rgb(170, 23, 53);
+  transition: 0.3s;
 }
 
 .copyright {
-    font-family: sans-serif;
-    font-size: 20px;
-    color: white;
-    width: fit-content;
-    margin: auto;
-    background-color: crimson;
-    padding: 10px;
-    border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: white;
+  width: fit-content;
+  margin: auto;
+  background-color: crimson;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-@media (max-width:650px) {
-    #navbar-item {
-        display: block;
-        text-align: center;
-        width: 100%;
-    }
+@media (max-width: 650px) {
+  #navbar-item {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
 
-    #img {
-        width: 5%;
-    }
-
-
+  #img {
+    width: 5%;
+  }
 }
 
-@media (max-width:650px) {
-    .container-designs a {
-        display: block;
-    }
+@media (max-width: 650px) {
+  .container-designs a {
+    display: block;
+  }
 }
